@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Chrisovalantis Vatos</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href = "style.css">
+  </head>
+  
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <header>
+      <nav class = "navbar fixed-top navbar-expand-lg navbar-light bg-light" style = "background-color: #f8f8ff">
+        <div class = "container-fluid">
+          <a href = "index.html">
+            <span class = "navbar-text">
+            Chrisovalantis
+            </span>
+          </a>
+          <ul class = "navbar-nav ms-auto">
+            <li class = "nav-item">
+              <a class = "nav-link" href = "index.html">Home</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "about.html">About</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "resume.html">Resume</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "projects.html">Projects</a>
+            </li>
+          </ul>
+          <a class = "navbar-brand" href = "https://www.linkedin.com/in/chrisvatos/" target = "_blank"><img src = "linkedin.png" width = "30" height = "30"></a>
+        </div>
+      </nav>
+    </header>
+
+    <main class = "projects">
+      <div class = "project-cards">
+        <div class = "card" id = "card-1" style = "width: 28rem">
+          <img src = "https://www.etftrends.com/wp-content/uploads/2021/12/VIX-ETFs-Surge-as-Tech-Leads-Market-Rout-Omicron-Weighs-on-Risk-Sentiment-440x250.jpg" class = "card-img-top" alt = "Photo representing stock market">
+          <div class = "card-body">
+            <h5 class = "card-title">Stock Market Sentiment Analysis</h5>
+            <p class = "card-text"> ‣ Detailed analysis of Reuters’ articles with the goal of determining the relationship between the <strong>polarity</strong> and <strong>subjectivity</strong> of news headlines</p>
+            <p class = "card-text"> ‣ Implemented the <strong>VADER Sentiment Library</strong> to acquire the necessary scores followed by <strong>Scikit Learn's k-means clustering</strong> in order to allocate each headline to a specific group</p>
+            <p class = "card-text"> ‣ Gained experience in <strong>natural language processing (NLP)</strong> as well as <strong>unsupervised machine learning</strong> techniques</p>
+            <a href = "https://colab.research.google.com/drive/1PLURM0eu9fSsoNMe7vzf-wJmohybNKcw?usp=sharings" class = "btn btn-danger" target = "_blank">See Project</a>
+          </div>
+        </div>
+
+        <div class = "card" id = "card-2" style = "width: 28rem">
+          <img src = "https://images.unsplash.com/photo-1601831974284-7cba02cd2887?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dWx0aW1hdGUlMjBmcmlzYmVlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class = "card-img-top" alt = "Photo representing stock market">
+          <div class = "card-body">
+            <h5 class = "card-title">Sophisticated Study of Lift and Drag Forces</h5>
+            <p class = "card-text"> ‣ Studied the effects of <strong>lift</strong> and <strong>drag</strong> acting on a frisbee as it travels through the air in a Python environment</p>
+            <p class = "card-text"> ‣ Coded a <strong>bisection method</strong> algorithm used to determine the necessary launch angle in order for the frisbee to travel a desired distance at a given initial velocity</p>
+            <p class = "card-text"> ‣ Gained intermediate experience in <strong>optimization </strong> problems and with the <strong>SciPy</strong> open-source Python library</p>
+            <a href = "https://colab.research.google.com/drive/16boUPEYuccgAzMgrBaWhjTo2CQArfgjs?usp=sharing" class = "btn btn-danger" target = "_blank">See Project</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer id = "footer-projects">
+    <br>
+    <p>&copy Copyright <strong>Chrisovalantis Vatos</strong>
+      <br>
+      Designed with <span>Bootstrap 4</span></p>
+  </footer>
+</html>
+
